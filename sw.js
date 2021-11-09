@@ -1,6 +1,6 @@
 self.addEventListener("push", function (e) {
   const strdata = e?.data?.text();
-  const data = JSON.parsestrdata;
+  const data = JSON.parse(strdata);
 
   var options = {
     body: data.body,
