@@ -25,4 +25,7 @@ const pushSubscription = {
   },
 };
 
-webpush.sendNotification(pushSubscription, "Your Push Payload Text");
+webpush.sendNotification(
+  pushSubscription,
+  "Your Push SALANAN lkjsdh kljh kljhkl;h laksdj fhlakh Payload Text"
+);
