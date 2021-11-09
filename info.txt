@@ -1,0 +1,5 @@
+Recommended title length - up to 50 characters
+Recommended body length - up to 120 characters
+Recommended image size - 1000x500px, up to 200 kB
+Recommended icon size - aspect ratio 1:1, up to 200 kB
+Action buttons - yes (up to 2 action buttons)

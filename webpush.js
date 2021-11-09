@@ -24,10 +24,11 @@ const pushSubscription = {
     auth: "Tge2K7awnUqHc6b3_GXHPw",
   },
 };
-
 const data = JSON.stringify({
   title: "Jadwal - Event Added",
   body: "Your Push SALANAN lkjsdh kljh kljhkl;h laksdj fhlakh Payload Text",
+  image:
+    "https://res.cloudinary.com/fivegstore/image/upload/v1634347453/blob_gwpnvn.jpg",
 });
 
 webpush.sendNotification(pushSubscription, data);
