@@ -25,7 +25,9 @@ const pushSubscription = {
   },
 };
 
-webpush.sendNotification(
-  pushSubscription,
-  "Your Push SALANAN lkjsdh kljh kljhkl;h laksdj fhlakh Payload Text"
-);
+const data = JSON.stringify({
+  title: "Jadwal - Event Added",
+  body: "Your Push SALANAN lkjsdh kljh kljhkl;h laksdj fhlakh Payload Text",
+});
+
+webpush.sendNotification(pushSubscription, data);
