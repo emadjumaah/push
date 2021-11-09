@@ -5,7 +5,8 @@ self.addEventListener("push", function (e) {
   var options = {
     body: data.body,
     icon: "https://res.cloudinary.com/fivegstore/image/upload/v1635853109/256x256_fwxwfx.png",
-    image: "https://res.cloudinary.com/fivegstore/image/upload/v1634347453/blob_gwpnvn.jpg"
+    image:
+      "https://res.cloudinary.com/fivegstore/image/upload/v1634347453/blob_gwpnvn.jpg",
     vibrate: [100, 50, 100],
     data: {
       dateOfArrival: Date.now(),
